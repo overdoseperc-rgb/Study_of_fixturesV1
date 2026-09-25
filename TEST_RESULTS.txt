@@ -1,0 +1,33 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\misarry\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\misarry\Documents\Codex\2026-09-25\referenced-chatgpt-conversation-this-is-an\work\variant_1
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 23 items
+
+tests/test_database.py::test_database_isolation[] PASSED                 [  4%]
+tests/test_database.py::test_database_isolation[   ] PASSED              [  8%]
+tests/test_database.py::test_database_isolation[\u041f\u0435\u0440\u0432\u0430\u044f\n\u0412\u0442\u043e\u0440\u0430\u044f] PASSED [ 13%]
+tests/test_database.py::test_database_isolation[O'Reilly] PASSED         [ 17%]
+tests/test_strings.py::test_length[-0] PASSED                            [ 21%]
+tests/test_strings.py::test_length[a\nb-3] PASSED                        [ 26%]
+tests/test_strings.py::test_length[   -3] PASSED                         [ 30%]
+tests/test_strings.py::test_length[\u041f\u0440\u0438\u0432\u0435\u0442-6] PASSED [ 34%]
+tests/test_strings.py::test_length[a\r\nb-4] PASSED                      [ 39%]
+tests/test_strings.py::test_invalid_type[None] PASSED                    [ 43%]
+tests/test_strings.py::test_invalid_type[123] PASSED                     [ 47%]
+tests/test_strings.py::test_invalid_type[value2] PASSED                  [ 52%]
+tests/test_strings.py::test_invalid_type[abc] PASSED                     [ 56%]
+tests/test_strings.py::test_save[-False] PASSED                          [ 60%]
+tests/test_strings.py::test_save[-True] PASSED                           [ 65%]
+tests/test_strings.py::test_save[\u041f\u0435\u0440\u0432\u0430\u044f\n\u0412\u0442\u043e\u0440\u0430\u044f-False] PASSED [ 69%]
+tests/test_strings.py::test_save[\u041f\u0435\u0440\u0432\u0430\u044f\n\u0412\u0442\u043e\u0440\u0430\u044f-True] PASSED [ 73%]
+tests/test_strings.py::test_save[   -False] PASSED                       [ 78%]
+tests/test_strings.py::test_save[   -True] PASSED                        [ 82%]
+tests/test_strings.py::test_save[\u041f\u0440\u0438\u0432\u0435\u0442-False] PASSED [ 86%]
+tests/test_strings.py::test_save[\u041f\u0440\u0438\u0432\u0435\u0442-True] PASSED [ 91%]
+tests/test_strings.py::test_save[a\r\nb-False] PASSED                    [ 95%]
+tests/test_strings.py::test_save[a\r\nb-True] PASSED                     [100%]
+
+============================= 23 passed in 0.19s ==============================
